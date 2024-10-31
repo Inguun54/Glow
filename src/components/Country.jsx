@@ -15,7 +15,6 @@ const Country = ({ selectedCountry }) => {
 
   return (
     <div style={styles.container}>
-      <p style={styles.quote}>Lkhagvaa Teacher once said: Yuch hamaagu bich</p>
       <h2 style={styles.heading}>Country Details</h2>
       <div style={styles.detailsContainer}>
         {flags?.svg && (
